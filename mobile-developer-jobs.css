@@ -1,0 +1,313 @@
+.header-container-header-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-container-header {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: relative;
+  max-width: 1110px;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-container-logo {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-container-navlink {
+  display: contents;
+}
+.header-container-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.header-container-menu {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header-container-navlink1 {
+  align-self: center;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.header-container-navlink1:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header-container-navlink2 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.header-container-navlink2:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header-container-navlink3 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.header-container-navlink3:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.header-container-image1 {
+  width: 100px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .header-container-menu {
+    display: none;
+  }
+}
+
+.footer-footer {
+  flex: 0 0 auto;
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.footer-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  flex-wrap: wrap;
+  max-width: 1110px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-image {
+  width: 10%;
+  object-fit: cover;
+}
+.footer-container1 {
+  display: flex;
+  margin-top: var(--dl-space-space-doubleunit);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footer-navlink {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.footer-navlink1 {
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink1:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.footer-navlink2 {
+  transition: 0.3s;
+  white-space: nowrap;
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink2:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.footer-navlink3 {
+  transition: 0.3s;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.footer-navlink3:hover {
+  color: var(--dl-color-turquoise-default);
+}
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: var(--dl-color-gray-white);
+}
+.footer-container2 {
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-text {
+  color: var(--dl-color-gray-300);
+  margin-top: var(--dl-space-space-unit);
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .footer-container1 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-container2 {
+    flex-direction: column;
+  }
+  .footer-text {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.mobile-developer-jobs-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.mobile-developer-jobs-container1 {
+  flex: 0 0 auto;
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.mobile-developer-jobs-text {
+  align-self: flex-start;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text01 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text02 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text05 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text08 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text09 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text10 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text11 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text12 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text13 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text16 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text23 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text26 {
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.mobile-developer-jobs-text35 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text36 {
+  align-self: flex-start;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text41 {
+  font-size: 18px;
+  align-self: flex-start;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text42 {
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.mobile-developer-jobs-text48 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.mobile-developer-jobs-text50 {
+  color: #2fadea;
+}
